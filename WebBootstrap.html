@@ -1,0 +1,961 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistem Informasi Perusahaan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="gambar/icon.png" rel="icon">
+  </head>
+  <body>
+    
+    <!-- navigasi -->
+    <nav class="navbar navbar-expand-lg navbar navbar-light bg-light shadow-lg fixed-top ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="logo-removebg-preview.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top fs-3 text-center"> <strong>Achmad<span>Im</span></strong>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarNav">
+          <form class="d-flex  pb-1 my-lg-0 cari" role="search">
+            <input class="form-control me-1" type="search" placeholder="Cari barang anda" aria-label="Search">
+            <button class="btn btn-danger me-3" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Kategori</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portopolio">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Masukan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lihat.html">Login <i class="fa-solid fa-right-to-bracket fa-1x"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <div class="container-fluid banner">
+      <div class="container">
+        <h3 class="display-4 pb-5" id="selamat">SELAMAT DATANG</h3>
+        <h2 class="display-5" id="hai"> SILAHKAN BELANJA DI TOKO KAMI</h2>
+        <a href="#layanan">
+          <button class="btn btn-danger btn-lg mt-4 " type="button">Cek Kategori</button>
+        </a>
+      </div>
+    </div>
+    <!-- Kategori -->
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center ">
+        <h2 class="display-3 " id="layanan" >Kategori</h2>
+        <p>Kami memiliki produk yang tersedia di web site kami dengan kualitas yang sangat baik dan kami mempunyai produk produk dengan brand brand ternama 
+        </p>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-solid fa-shoe-prints fa-5x"></i></span>           
+            <h3 class="mt-3">Sepatu</h3>
+            <p>Sepatu yang kami tawarkan adalah sepatu berkualitas baik dan sudah pasti original brand</p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-solid fa-socks fa-5x"></i></span>           
+            <h3 class="mt-3">Aksesoris</h3>
+            <p>pastinya adanya produk sepatu di toko kami kami juga menawarkan asesoris untuk perlengkapan sepatu </p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-solid fa-hat-cowboy fa-5x"></i></span>           
+            <h3 class="mt-3">Topi</h3>
+            <p>Menawarkan topi dari brand ternama nasional maupun internasional dan pasti produk yang sangat original dari brand tersebut</p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-solid fa-shirt fa-5x"></i></span>           
+            <h3 class="mt-3">Baju</h3>
+            <p>Kami menawarkan banyak sekali produk baju dengan style yang menarik dan kekinian dari buatan negri sampai butan luar negri </p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-solid fa-mug-saucer fa-5x"></i></span>           
+            <h3 class="mt-3">Cangkir</h3>
+            <p>produk produk cangkir dalam toko kami sangat berkualitas baik dari segi bahan maupun dari cara pembuatan menjadikan cangkir kami menjadi incaran para colektor</p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-solid fa-bag-shopping fa-5x"></i></span>           
+            <h3 class="mt-3">Tas</h3>
+            <p>Tak lupa produk tas yang berkualitas pastinya ada di toko kami dan pastinya harga tas yang kami tawarkan akan sesuai dengan kualitas dan kesukaan pelanggan kami </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Produk -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="portopolio">CEK PRODUK</h2>
+        <p></p>
+      <div class="row pt-4 gx-4 gy-4">
+<!-- sepatu -->
+        <div class="col-md-4">
+          <div class="card crop-img">
+            <img src="gambar/sptu.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Sepatu Outdoor</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamplee" aria-expanded="false" aria-controls="collapseExamplee">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <a href="lihat.html"><button type="button" class="btn btn-danger">Login</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExamplee">
+                <div class="card card-body">
+                  Rp 450.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- sepatu -->
+        <div class="col-md-4">
+          <div class="card crop-img">
+            <img src="gambar/sepatue.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Sepatu Casual Putih</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampled" aria-expanded="false" aria-controls="collapseExampled">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExampled">
+                <div class="card card-body">
+                  Rp 230.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- sepatu -->
+        <div class="col-md-4">
+          <div class="card crop-img">
+            <img src="gambar/sepatu3.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Sepatu Casual Style</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  Rp 370.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- asesoris -->
+        <div class="col-md-4">
+          <div class="card crop-img">
+            <img src="gambar/kaos kakki.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Kaos Kaki Mini</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampli" aria-expanded="false" aria-controls="collapseExampli">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExampli">
+                <div class="card card-body">
+                  Rp 28.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- asesoris -->
+        <div class="col-md-4">
+          <div class="card crop-img">
+            <img src="gambar/kauskaki.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Kaos Kaki Mini Style</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamplu" aria-expanded="false" aria-controls="collapseExamplu">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExamplu">
+                <div class="card card-body">
+                  Rp 35.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- asesoris -->
+        <div class="col-md-4">
+          <div class="card crop-img">
+            <img src="gambar/kauskk.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Kaos Kaki Hitam Mini</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampl" aria-expanded="false" aria-controls="collapseExampl">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExampl">
+                <div class="card card-body">
+                  Rp 20.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- topi -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/poi.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Topi Putih Premium</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampp" aria-expanded="false" aria-controls="collapseExampp">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExampp">
+                <div class="card card-body">
+                  Rp 260.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- topi -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/pi.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Topi Coklat Premium</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampt" aria-expanded="false" aria-controls="collapseExampt">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExampt">
+                <div class="card card-body">
+                  Rp 265.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- topi -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/tpie.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Topi Hitam Premium</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamp" aria-expanded="false" aria-controls="collapseExamp">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExamp">
+                <div class="card card-body">
+                  Rp 310.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- baju -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/baju.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Baju santai beach</h5>
+              <p class="card-text"> </p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExam" aria-expanded="false" aria-controls="collapseExam">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExam">
+                <div class="card card-body">
+                  Rp 380.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- baju -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/ju.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Baju Trend Tanda Tangan</h5>
+              <p class="card-text"> </p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamo" aria-expanded="false" aria-controls="collapseExamo">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExamo">
+                <div class="card card-body">
+                  Rp 250.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- baju -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/bu.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Baju Hitam Simple</h5>
+              <p class="card-text"> </p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamk" aria-expanded="false" aria-controls="collapseExamk">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExamk">
+                <div class="card card-body">
+                  Rp 320.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- cangkir -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/cang.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Cangkir Ukir Batu </h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampeq" aria-expanded="false" aria-controls="collapseExampeq">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExampeq">
+                <div class="card card-body">
+                  Rp 990.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- cangkir -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/cangki.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Cangkir Ukir Gugur</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampez" aria-expanded="false" aria-controls="collapseExampez">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExampez">
+                <div class="card card-body">
+                  Rp 760.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- cangkir -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/ca.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Cangkir Ukir Semi</h5>
+              <p class="card-text"></p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampe" aria-expanded="false" aria-controls="collapseExampe">
+                  cek harga
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Beli
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mohon Maaf Anda Harus Login Terlebih Dahulu
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+              <div class="collapse" id="collapseExampe">
+                <div class="card card-body">
+                  Rp 880.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- tas -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/tass.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Tas Style Wanita Kini</h5>
+              <p class="card-text"> </p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapsexampler" aria-expanded="false" aria-controls="collapsexampler">
+                  cek harga
+                </button>
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Beli
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Mohon Maaf Anda Harus Login Terlebih Dahulu
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </p>
+              <div class="collapse" id="collapsexampler">
+                <div class="card card-body">
+                  Rp 480.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- tas -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/ta.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Tas Premium Style</h5>
+              <p class="card-text"> </p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapsexamplem" aria-expanded="false" aria-controls="collapsexamplem">
+                  cek harga
+                </button>
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Beli
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Mohon Maaf Anda Harus Login Terlebih Dahulu
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </p>
+              <div class="collapse" id="collapsexamplem">
+                <div class="card card-body">
+                  Rp 670.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- tas -->
+        <div class="col-md-4 crop-img">
+          <div class="card">
+            <img src="gambar/tasse.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Tas Gendong Kekinian</h5>
+              <p class="card-text"> </p>
+              <p>
+                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapsexample" aria-expanded="false" aria-controls="collapsexample">
+                  cek harga
+                </button>
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Beli
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Tidak Bisa Membeli</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Mohon Maaf Anda Harus Login Terlebih Dahulu
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </p>
+              <div class="collapse" id="collapsexample">
+                <div class="card card-body">
+                  Rp 680.000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+    <!-- tentang -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <h2 class="display-3 text-center" id="tentang">
+          Tentang Kami</h2>
+        <p class="text-center">E-commerce adalah singkatan dari dua kata, yakni electronic dan commerce. Bila diartikan secara harfiah, artinya adalah perdagangan elektronik. Maksudnya, segala bentuk perdagangan meliputi proses pemasaran barang sampai dengan distribusi yang dilakukan melalui jaringan elektronik atau online. </p>
+      <div class="clearfix pt-5"><img src="gambar/ecomer.png" class="col-md-6 float-md-end mb-3" width="300" height="300">
+        <p>Secara sederhana, e-commerce adalah bentuk perdagangan yang dilakukan secara online dengan memanfaatkan internet. E-commerce bisa dilakukan melalui komputer, laptop, sampai smartphone. Banyak bentuk layanan yang bisa kamu dapatkan dengan memanfaatkan transaksi e-commerce, mulai dari pembelian tiket transportasi, pembayaran tagihan seperti listrik dan air, kemudian juga layanan perbankan dan investasi. </p><br>
+        <p>E-commerce adalah suatu proses transaksi jual beli yang dilakukan oleh penjual dan pembeli dari satu perusahaan ke perusahaan lainnya secara elektronik dengan bantuan komputer sebagai perantara transaksinya. </p><br>
+        <p>Menurut Kotler dan Amstrong, pengertian e-commerce adalah saluran online yang dijangkau oleh seseorang melalui komputer. Saluran ini umumnya digunakan oleh seorang pebisnis untuk menjalankan aktivitas bisnisnya. Sedangkan bagi konsumen, saluran ini digunakan untuk mencari informasi sampai dengan menentukan pilihan dan akhirnya melakukan transaksi sampai selesai. </p>
+        <p>E-commerce adalah aktivitas belanja online yang dilakukan dengan menggunakan jaringan internet, dan transaksinya diselesaikan dengan cara transfer digital. </p>
+      </div>
+      </div>
+    </div>
+    <!-- tim -->
+    <div class="container-fluid pt-5 pb-5 ">
+      <div class="container text-center">
+        <h2 class="display-2" id="staff">
+          SPONSOR</h2>
+        <p>Kami Memiliki bebrapa sponsor brand brand terkenal</p>
+        <div class="row pt-4 gx-4 gy-4">
+
+          <div class="col-md-2 text-center tim">
+            <span class="timkami"><a href="#"><i class="fa-brands fa-shopify fa-5x"></i></a></span>            
+            <h4>Shopify</h4>
+          </div>
+
+          <div class="col-md-2 text-center tim">
+            <span class="timkami"><a href="#"><i class="fa-brands fa-cc-visa fa-5x"></i></a></span>            
+            <h4>Visa</h4>
+          </div>
+
+          <div class="col-md-2 text-center tim">
+            <span class="timkami"><a href="#"><i class="fa-brands fa-google-play fa-5x"></i></a></span>            
+            <h4>Google Play</h4>
+          </div>
+
+          <div class="col-md-2 text-center tim">
+            <span class="timkami"><a href="#"><i class="fa-brands fa-zhihu fa-5x"></i></a></span>            
+            <h4>Zhihu</h4>
+          </div>
+
+          <div class="col-md-2 text-center tim">
+            <span class="timkami"><a href="#"><i class="fa-brands fa-weebly fa-5x"></i></a></span>            
+            <h4>Weebly</h4>
+          </div>
+
+          <div class="col-md-2 text-center tim">
+            <span class="timkami"><a href="#"><i class="fa-brands fa-studiovinari fa-5x"></i></a></span>            
+            <h4>Studiovinari</h4>
+          </div>
+
+
+        </div>
+      </div>
+    </div>    
+    <!-- kontak -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+      <div class="container">
+        <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+        <p class="text-center">
+          Kami sangat menantikan untuk mendengar dari Anda. Silakan menghubungi kami melalui formulir di bawah ini, kami akan menghubungi Anda sesegera mungkin.
+        </p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama">
+            <input class="form-control form-control-lg mb-3" type="text" placeholder="Email">
+            <input class="form-control form-control-lg mb-3" type="text" placeholder="No. Phone">
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control form-control-lg" name="" id="" cols="30" rows="5" ></textarea>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center">
+          <button type="button" class="btn btn-danger btn-lg"> Kirim</button>
+        </div>
+      </div>
+    </div><hr>
+
+    <div class="container-fluid text-center pt-5">
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-lg-3 col-md-6 ">
+            <i class="bi bi-geo-alt icon"></i>
+            <div>
+              <h4>Alamat</h4>
+              <p>
+                Maguan, Ketunggeng, Dukun, Magelang
+              </p>
+            </div>
+  
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links">
+            <i class="bi bi-telephone icon"></i>
+            <div>
+              <h4>Kontak</h4>
+              <p>
+                <strong>Phone:</strong> +62 895-0927-7892<br>
+                <strong>Email:</strong> imamdairobbi623<br>
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links ">
+            <i class="bi bi-clock icon"></i>
+            <div>
+              <h4>Oprasional</h4>
+              <p>
+                <strong>setiap hari :</strong> 24 jam
+    
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-lg-3">
+            <h4>Follow Kami</h4>
+            <div class="social-links pt-3">
+              <a href="#" class="twitter"><i class="fa-brands fa-twitter fa-2x"></i></a>
+              <a href="#" class="facebook"><i class="fa-brands fa-facebook fa-2x"></i></a>
+              <a href="#" class="instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
+              <a href="#" class="linkedin"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="container-fluid text-center pt-5">
+        <div class="copyright">
+          &copy; Copyright <strong>Achmad<span>Im</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="#">imamdairobbi623@gmail.com</a>
+        </div>
+      </div><hr>
+
+    </footer>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

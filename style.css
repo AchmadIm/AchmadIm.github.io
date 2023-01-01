@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Kalam:wght@700&family=Reenie+Beanie&family=Rubik+80s+Fade&family=Rubik+Spray+Paint&family=Rubik+Vinyl&family=Secular+One&display=swap');
+.banner{
+    background: url("gambar/695.jpg") no-repeat center center;
+    background-size: 100%;
+    padding-top: 20%;
+    padding-bottom: 16%;
+
+}
+span{
+    color: #dc3545;
+}
+#selamat{
+    font-family: 'Rubik Spray Paint', cursive;
+    color: #dc3545;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+#hai{
+    font-family: 'Rubik Spray Paint', cursive;
+    color: #dc3545;
+}
+@media screen and (min-width:994px){
+.cari{
+ width: 350px;
+}
+}
+.imam{
+    margin: auto;
+    padding-bottom: 20px;
+}
+.web{
+    margin: auto;
+    padding-bottom: 30px;
+}
+.layanan{
+    background-color: rgb(238, 236, 236);
+}
+
+.media{
+    margin: auto;
+    padding-bottom: 5%;
+    left: 50px;
+}
+.provil{
+    margin-right: auto;
+    margin-top: auto;
+    margin-left: auto;
+}
+.provil img{
+display: inline-block;
+position: relative;
+width: 250px;
+border: 5px solid rgb(124, 122, 119);
+
+}
+.lingkaran{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: rgb(28, 31, 34);
+    background-color: #dc3545;
+}
+.lingkaran i{
+    position: relative;
+    top: 30px;
+}
+.crop-img{
+    object-fit: cover;
+}
+.tim img{
+    width: 250px;
+    border: 10px solid #202020;
+    position: relative;
+}
+.time img{
+    width: 100px;
+    border: 1px solid #202020;
+    margin: auto;
+
+}
+a.social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 50%;
+    background-color: black;
+    line-height: 40px;
+}
+.client img{
+    height: auto;
+    max-height: 50px;
+}
+.kontak{
+    background: url("https://manajemen.stie11april-sumedang.ac.id/wp-content/uploads/2021/06/2e516c2a-1b8e-4c54-a468-88d0552044e7.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: rgb(13, 13, 14);
+}
+.pendaftaran{
+    color: #020202;
+    background-color: #f1f1f1;
+}
