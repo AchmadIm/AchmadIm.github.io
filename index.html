@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="gambar/icon.png" rel="icon">
   </head>
@@ -32,13 +33,13 @@
               <a class="nav-link" href="#layanan">Kategori</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portopolio">Produk</a>
+              <a class="nav-link" href="#Produk">Produk</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#tentang">Tentang</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#kontak">Masukan</a>
+              <a class="nav-link" href="#kontak">Kontak</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="lihat.html">Login <i class="fa-solid fa-right-to-bracket fa-1x"></i></a>
@@ -49,6 +50,9 @@
     </nav>
     <!-- banner -->
     <div class="container-fluid banner">
+      <div data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
       <div class="container">
         <h3 class="display-4 pb-5" id="selamat">SELAMAT DATANG</h3>
         <h2 class="display-5" id="hai"> SILAHKAN BELANJA DI TOKO KAMI</h2>
@@ -57,10 +61,15 @@
         </a>
       </div>
     </div>
+    </div>
     <!-- Kategori -->
     <div class="container-fluid layanan pt-5 pb-5">
+      <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+
       <div class="container text-center ">
-        <h2 class="display-3 " id="layanan" >Kategori</h2>
+        <h2 class="display-1 " id="layanan" >KATEGORI</h2>
         <p>Kami memiliki produk yang tersedia di web site kami dengan kualitas yang sangat baik dan kami mempunyai produk produk dengan brand brand ternama 
         </p>
         <div class="row pt-4">
@@ -73,7 +82,7 @@
           <div class="col-md-4">
             <span class="lingkaran"><i class="fa-solid fa-socks fa-5x"></i></span>           
             <h3 class="mt-3">Aksesoris</h3>
-            <p>pastinya adanya produk sepatu di toko kami kami juga menawarkan asesoris untuk perlengkapan sepatu </p>
+            <p>Pastinya adanya produk sepatu di toko kami kami juga menawarkan asesoris untuk perlengkapan sepatu </p>
           </div>
 
           <div class="col-md-4">
@@ -84,7 +93,7 @@
 
           <div class="col-md-4">
             <span class="lingkaran"><i class="fa-solid fa-shirt fa-5x"></i></span>           
-            <h3 class="mt-3">Baju</h3>
+            <h3 class="mt-3">Kaos</h3>
             <p>Kami menawarkan banyak sekali produk baju dengan style yang menarik dan kekinian dari buatan negri sampai butan luar negri </p>
           </div>
 
@@ -103,10 +112,14 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- Produk -->
     <div class="container-fluid pt-5 pb-5 bg-light">
+      <div data-aos="fade-up"
+     data-aos-duration="3000">
+
       <div class="container text-center">
-        <h2 class="display-3" id="portopolio">CEK PRODUK</h2>
+        <h2 class="display-1" id="Produk">CEK PRODUK</h2>
         <p></p>
       <div class="row pt-4 gx-4 gy-4">
 <!-- sepatu -->
@@ -114,8 +127,8 @@
           <div class="card crop-img">
             <img src="gambar/sptu.jpg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Sepatu Outdoor</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">Eiger Boots Pollock.</h5>
+              <p class="card-text">Sepatu Gunung</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamplee" aria-expanded="false" aria-controls="collapseExamplee">
                   cek harga
@@ -154,8 +167,8 @@
           <div class="card crop-img">
             <img src="gambar/sepatue.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Sepatu Casual Putih</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">New Balance.</h5>
+              <p class="card-text">Sepatu Premium white</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampled" aria-expanded="false" aria-controls="collapseExampled">
                   cek harga
@@ -193,8 +206,8 @@
           <div class="card crop-img">
             <img src="gambar/sepatu3.jpg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Sepatu Casual Style</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">Saint Barkley.</h5>
+              <p class="card-text">Sepatu Casual Style</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                   cek harga
@@ -232,8 +245,8 @@
           <div class="card crop-img">
             <img src="gambar/kaos kakki.jpg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Kaos Kaki Mini</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">StayCool Socks.</h5>
+              <p class="card-text">Kaos Kaki Mini</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampli" aria-expanded="false" aria-controls="collapseExampli">
                   cek harga
@@ -271,8 +284,8 @@
           <div class="card crop-img">
             <img src="gambar/kauskaki.jpg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Kaos Kaki Mini Style</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">Rightbox.</h5>
+              <p class="card-text">Kaos Kaki Mini Style</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamplu" aria-expanded="false" aria-controls="collapseExamplu">
                   cek harga
@@ -310,8 +323,8 @@
           <div class="card crop-img">
             <img src="gambar/kauskk.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Kaos Kaki Hitam Mini</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">Cross Sport.</h5>
+              <p class="card-text">Kaos Kaki Hitam Mini</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampl" aria-expanded="false" aria-controls="collapseExampl">
                   cek harga
@@ -349,8 +362,8 @@
           <div class="card">
             <img src="gambar/poi.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Topi Putih Premium</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">Timberland Men Cotton Canvas white.</h5>
+              <p class="card-text">Topi Premium white</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampp" aria-expanded="false" aria-controls="collapseExampp">
                   cek harga
@@ -388,8 +401,8 @@
           <div class="card">
             <img src="gambar/pi.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Topi Coklat Premium</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">Timberland Men Cotton Canvas Brown.</h5>
+              <p class="card-text">Topi Premium Brown</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampt" aria-expanded="false" aria-controls="collapseExampt">
                   cek harga
@@ -427,8 +440,8 @@
           <div class="card">
             <img src="gambar/tpie.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Topi Hitam Premium</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">Timberland Men Cotton Canvas black.</h5>
+              <p class="card-text">Topi Premium Black</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamp" aria-expanded="false" aria-controls="collapseExamp">
                   cek harga
@@ -466,8 +479,8 @@
           <div class="card">
             <img src="gambar/baju.jpg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Baju santai beach</h5>
-              <p class="card-text"> </p>
+              <h5 class="card-title">Miromau.</h5>
+              <p class="card-text">kaos relax on the beach</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExam" aria-expanded="false" aria-controls="collapseExam">
                   cek harga
@@ -505,8 +518,8 @@
           <div class="card">
             <img src="gambar/ju.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Baju Trend Tanda Tangan</h5>
-              <p class="card-text"> </p>
+              <h5 class="card-title">Onitsuka Tiger</h5>
+              <p class="card-text">Kaos signature trend</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamo" aria-expanded="false" aria-controls="collapseExamo">
                   cek harga
@@ -544,8 +557,8 @@
           <div class="card">
             <img src="gambar/bu.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Baju Hitam Simple</h5>
-              <p class="card-text"> </p>
+              <h5 class="card-title">Breakside.</h5>
+              <p class="card-text">Kaos Simple Black</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamk" aria-expanded="false" aria-controls="collapseExamk">
                   cek harga
@@ -583,8 +596,8 @@
           <div class="card">
             <img src="gambar/cang.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Cangkir Ukir Batu </h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">MomoGu.</h5>
+              <p class="card-text">Cangkir Ukir Batu </p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampeq" aria-expanded="false" aria-controls="collapseExampeq">
                   cek harga
@@ -622,8 +635,8 @@
           <div class="card">
             <img src="gambar/cangki.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Cangkir Ukir Gugur</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">Naruna.</h5>
+              <p class="card-text">Cangkir Ukir Gugur</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampez" aria-expanded="false" aria-controls="collapseExampez">
                   cek harga
@@ -661,8 +674,8 @@
           <div class="card">
             <img src="gambar/ca.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Cangkir Ukir Semi</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">Kanna.</h5>
+              <p class="card-text">Cangkir Ukir Semi</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampe" aria-expanded="false" aria-controls="collapseExampe">
                   cek harga
@@ -700,8 +713,8 @@
           <div class="card">
             <img src="gambar/tass.jpg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Tas Style Wanita Kini</h5>
-              <p class="card-text"> </p>
+              <h5 class="card-title">Dior Book Tote.</h5>
+              <p class="card-text">Tas contemporary styles</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapsexampler" aria-expanded="false" aria-controls="collapsexampler">
                   cek harga
@@ -739,8 +752,8 @@
           <div class="card">
             <img src="gambar/ta.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Tas Premium Style</h5>
-              <p class="card-text"> </p>
+              <h5 class="card-title">Louis Vuitton Clapton.</h5>
+              <p class="card-text">Tas Premium Style</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapsexamplem" aria-expanded="false" aria-controls="collapsexamplem">
                   cek harga
@@ -778,8 +791,8 @@
           <div class="card">
             <img src="gambar/tasse.jpeg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">Tas Gendong Kekinian</h5>
-              <p class="card-text"> </p>
+              <h5 class="card-title">Eversac.</h5>
+              <p class="card-text">Tas modern carry</p>
               <p>
                 <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapsexample" aria-expanded="false" aria-controls="collapsexample">
                   cek harga
@@ -816,11 +829,15 @@
       </div>
       </div>
     </div>
+    </div>
     <!-- tentang -->
     <div class="container-fluid pt-5 pb-5">
+      <div data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
       <div class="container">
-        <h2 class="display-3 text-center" id="tentang">
-          Tentang Kami</h2>
+        <h2 class="display-1 text-center" id="tentang">
+          TENTANG KAMI</h2>
         <p class="text-center">E-commerce adalah singkatan dari dua kata, yakni electronic dan commerce. Bila diartikan secara harfiah, artinya adalah perdagangan elektronik. Maksudnya, segala bentuk perdagangan meliputi proses pemasaran barang sampai dengan distribusi yang dilakukan melalui jaringan elektronik atau online. </p>
       <div class="clearfix pt-5"><img src="gambar/ecomer.png" class="col-md-6 float-md-end mb-3" width="300" height="300">
         <p>Secara sederhana, e-commerce adalah bentuk perdagangan yang dilakukan secara online dengan memanfaatkan internet. E-commerce bisa dilakukan melalui komputer, laptop, sampai smartphone. Banyak bentuk layanan yang bisa kamu dapatkan dengan memanfaatkan transaksi e-commerce, mulai dari pembelian tiket transportasi, pembayaran tagihan seperti listrik dan air, kemudian juga layanan perbankan dan investasi. </p><br>
@@ -830,8 +847,13 @@
       </div>
       </div>
     </div>
-    <!-- tim -->
+    </div>
+    <!-- spomsor -->
     <div class="container-fluid pt-5 pb-5 ">
+      <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+
       <div class="container text-center">
         <h2 class="display-2" id="staff">
           SPONSOR</h2>
@@ -871,13 +893,18 @@
 
         </div>
       </div>
+    </div>
     </div>    
     <!-- kontak -->
     <div class="container-fluid pt-5 pb-5 kontak">
+      <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+
       <div class="container">
-        <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+        <h2 class="display-1 text-center" id="kontak">KONTAK KAMI</h2>
         <p class="text-center">
-          Kami sangat menantikan untuk mendengar dari Anda. Silakan menghubungi kami melalui formulir di bawah ini, kami akan menghubungi Anda sesegera mungkin.
+        Silakan menghubungi kami melalui formulir di bawah ini, kami akan menghubungi Anda sesegera mungkin.
         </p>
         <div class="row pb-3">
           <div class="col-md-6">
@@ -890,12 +917,16 @@
           </div>
         </div>
         <div class="col-md-3 mx-auto text-center">
-          <button type="button" class="btn btn-danger btn-lg"> Kirim</button>
+          <button type="button" class="btn btn-danger btn-lg col-lg-8">Kirim</button>
         </div>
       </div>
+    </div>
     </div><hr>
 
     <div class="container-fluid text-center pt-5">
+      <div data-aos="fade-up"
+     data-aos-duration="3000">
+
     <footer id="footer" class="footer">
       <div class="container">
         <div class="row gy-3">
@@ -953,9 +984,13 @@
           Designed by <a href="#">imamdairobbi623@gmail.com</a>
         </div>
       </div><hr>
-
     </footer>
   </div>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
