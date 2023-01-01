@@ -86,9 +86,27 @@
                 <a href="#!" class="text-body">Lupa Password?</a>
               </div>
     
-              <div class="text-center text-lg-start mt-4 pt-2">
-                <button type="button" class="btn btn-primary btn-lg"
-                  style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+              <div class="text-center text-lg-start mt-4 pt-2 text-lg-center">
+               <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger col-7" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Login
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Login Anda Berhasil</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Kembali Ke menu Awal
+                      </div>
+                      <div class="modal-footer">
+                        <a href="index.html" type="button" class="btn btn-danger">Berhasil</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <p class="small fw-bold mt-2 pt-1 mb-0">Belum Mempunyai Akun? <a href="Daftar.html"
                     class="link-danger">Buat Akun</a></p>
               </div>
